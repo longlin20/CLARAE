@@ -133,5 +133,3 @@ python iaf_database/eval_iaf_database.py \
 ├── model_registry.py      # Central model registry
 ├── eval_utils.py          # Shared evaluation utilities
 └── utils.py               # Noise generators, normalization
-```
-```
