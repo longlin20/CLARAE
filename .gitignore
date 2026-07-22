@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+.spyderproject/
+.ropeproject/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ─── DATA (never upload) ───────────────────────────────────────────────────────
+# Raw patient data
+DATABASE/
+processed_data_v2/
+processed_data_*/
+all_patient_egms/
+DATA_ZIP/
+
+# EGM signal files
+*.h5
+*.hdf5
+*.pkl
+*.xz
+*.mat
+
+# ─── MODELS (never upload) ─────────────────────────────────────────────────────
+model_pth/
+clf_model_pth/
+*.pth
+*.pt
+*.ckpt
+
+# ─── RESULTS (never upload) ────────────────────────────────────────────────────
+results_plots/
+iaf_eval_output/
+wandb/
+
+# ─── SENSITIVE CONFIG (never upload) ───────────────────────────────────────────
+# Credentials and personal info
+web/user.py
+relabel_rules.json
+
+# Generated tables from patient data
+tables/*.tex
+tables/*.csv
+tables/model_params.json
+
+# Experiment launchers with API keys (use example_launcher.json as template)
+lanzador_json/lanzador_*.json
+
+# Logs
+*.log
+stdout.log
+stderr.log
+
+# OS
+.DS_Store
+Thumbs.db
+nul
