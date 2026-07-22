@@ -134,15 +134,4 @@ python iaf_database/eval_iaf_database.py \
 ├── eval_utils.py          # Shared evaluation utilities
 └── utils.py               # Noise generators, normalization
 ```
-
----
-
-## Citation
-
-```bibtex
-@inproceedings{clarae2025,
-  title  = {[Paper Title]},
-  author = {[Authors]},
-  year   = {2025}
-}
 ```
